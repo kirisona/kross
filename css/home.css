@@ -1,0 +1,162 @@
+.hero {
+  background-image: url(../images/design/BG.jpg);
+  background-size: cover;
+  background-color: #41228e;
+  min-height: 100vh;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__text {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.hero--social {
+  position: absolute;
+}
+
+.hero__decor {
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero__decor--dot-top {
+  height: 10px;
+  width: 129px;
+  left: 60%;
+  top: 25%;
+  background-image: url(../images/design/dot-top.png);
+}
+
+.hero__decor--dot-bottom {
+  height: 63px;
+  width: 88px;
+  bottom: 10%;
+  left: 25%;
+  background-image: url(../images/design/dot-bottom.png);
+}
+
+.hero__decor--leaf-pink {
+  height: 15.5623vw;
+  width: 14.5623vw;
+  top: 10%;
+  left: 0;
+  background-image: url(../images/design/leaf-pink.png);
+}
+
+.hero__decor--leaf-yellow {
+  height: 18.9375vw;
+  width: 11.125vw;
+  top: 27%;
+  right: 0;
+  background-image: url(../images/design/leaf-yellow.png);
+}
+
+.ba-section {
+  padding: 30px 15px;
+}
+
+.ba-section-title {
+  text-align: center;
+  font-size: 2.75rem;
+  line-height: 1.43;
+  margin-bottom: 1.33em;
+}
+
+@media screen and (min-width: 1025px) {
+  .ba-section {
+    padding: 70px 100px;
+  }
+  .ba-section-title {
+    font-size: 3.75rem;
+  }
+}
+
+.about-text {
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.63;
+}
+
+.about-text p {
+  margin-bottom: 1.36em;
+}
+
+@media screen and (min-width: 1025px) {
+  .about-text {
+    font-size: 1.22rem;
+  }
+}
+
+.about__btn {
+  border: none;
+  background-color: transparent;
+  color: #41228e;
+  font-size: 1.125rem;
+}
+
+.ba-skills-wrapper {
+  -webkit-box-shadow: 0px 59px 39.1px 6.9px rgba(0, 0, 0, 0.94);
+          box-shadow: 0px 59px 39.1px 6.9px rgba(0, 0, 0, 0.94);
+}
+
+.ba-skills-item {
+  margin-bottom: 2.5em;
+}
+
+.ba-skills-item__img {
+  max-width: 100%;
+}
+
+.ba-skills-item__title {
+  text-align: center;
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin: .875em 0;
+}
+
+@media screen and (min-width: 768px) {
+  .ba-skills {
+    margin-bottom: 0;
+  }
+}
+
+.ba-expirience-item {
+  text-align: center;
+}
+
+.ba-expirience-item__img {
+  margin-bottom: 2rem;
+}
+
+.ba-expirience-item__time {
+  font-size: 1.125rem;
+}
+
+.ba-expirience-item__position {
+  font-size: 1.375rem;
+}
+
+.ba-expirience-item__company {
+  text-transform: uppercase;
+  opacity: 0.4;
+}
+/*# sourceMappingURL=home.css.map */

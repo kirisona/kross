@@ -1,0 +1,63 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  z-index: 5;
+}
+
+.menu-btn span {
+  display: block;
+  height: 3px;
+  width: 30px;
+  background-color: #fff;
+}
+
+.menu__item {
+  padding: 0 12px;
+}
+
+.menu__link {
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+@media screen and (min-width: 1025px) {
+  .menu {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu-btn {
+    display: none;
+  }
+}
+/*# sourceMappingURL=menu.css.map */
